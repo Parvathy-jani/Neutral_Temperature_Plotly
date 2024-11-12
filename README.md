@@ -26,12 +26,6 @@ You can install the required libraries by running:
 ```bash
 pip install pandas plotly
 How to Use
-
-    Clone this repository to your local machine:
-
-git clone https://github.com/yourusername/kinetic-temperature-plot.git
-cd kinetic-temperature-plot
-
 Make sure you have the required libraries installed.
 
 Place your CSV files (e.g., daily_average_nt_2009_12.csv, daily_average_nt_2010_01.csv, daily_average_nt_2010_02.csv) in the same directory as the Python script.
@@ -56,10 +50,4 @@ The generated plot will look similar to the following:
     Y-axis: Daily averaged kinetic temperature at 110 km.
     The plot is interactive, allowing you to zoom in, hover over data points, and explore the data.
 
-License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgements
-
-    The CSV data was sourced from [your data source].
-    This project uses Plotly for interactive plotting and pandas for data handling.
